@@ -15,5 +15,5 @@ bbd3_load([
   "Markdown.Sanitizer.js"
 ], "scripts/");
 
-bbd3_load(["backbone-d3.js"], "../");
+bbd3_load(["backbone-d3.js"], "scripts/");
 bbd3_load(["footer.js"], "");
