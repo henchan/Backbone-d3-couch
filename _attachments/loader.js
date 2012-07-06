@@ -5,15 +5,20 @@ function bbd3_load(scripts, base) {
 };
 
 bbd3_load([
-  "jquery.js",
+  "jquery-1.7.2.js",
   "underscore-min.js",
   "backbone-0.9.2.js",
+  "backbone.couchdb.js",
   "d3.min.js",
   "d3.time.min.js",
   "d3.layout.min.js",
   "Markdown.Converter.js",
-  "Markdown.Sanitizer.js"
+  "Markdown.Sanitizer.js",
+  "backbone-d3.js", 
 ], "scripts/");
 
-bbd3_load(["backbone-d3.js"], "scripts/");
-bbd3_load(["footer.js"], "");
+bbd3_load(["backbone-d3.couchdb.js", "footer.js"], "");
+bbd3_load(["jquery.couch.js"], "/_utils/script/");
+	
+	
+	
