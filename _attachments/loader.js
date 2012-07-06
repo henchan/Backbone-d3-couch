@@ -7,7 +7,7 @@ function bbd3_load(scripts, base) {
 bbd3_load([
   "jquery.js",
   "underscore-min.js",
-  "backbone.js",
+  "backbone-0.9.2.js",
   "d3.min.js",
   "d3.time.min.js",
   "d3.layout.min.js",
