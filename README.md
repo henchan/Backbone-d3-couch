@@ -8,6 +8,8 @@ The name of the db is currently hard-coded as "crashes" (air-crash data).
 The name of the design doc is currently hard-coded as Backbone-d3-couch.
 You will also need to have uploaded the data into your crashes db. Refer to 
 load_data/calendar/readme.txt
+The application logic in calendar .js has been converted to Coffeescript.
+After modifying the app, you will need to compile: coffee -c calendar 
 
 # backbone-d3
 With backbone-d3 we aim to provide a simple interface to visualise with d3
