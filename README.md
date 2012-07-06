@@ -1,3 +1,14 @@
+# backbone-d3-couch
+backbone-d3-couch is a basic modification to Backbone-d3. It demonstrates 
+using a couchdb to store data for the Backbone-d3 calendar demo. 
+So far, only the Calendar sample is working.
+To use it, you need to use the Python Couchapp to upload the application to a 
+couchdb. 
+The name of the db is currently hard-coded as "crashes" (air-crash data).
+The name of the design doc is currently hard-coded as Backbone-d3-couch.
+You will also need to have uploaded the data into your crashes db. Refer to 
+load_data/calendar/readme.txt
+
 # backbone-d3
 With backbone-d3 we aim to provide a simple interface to visualise with d3
 dynamic data held in backbone collections. The simple visualisations provided
